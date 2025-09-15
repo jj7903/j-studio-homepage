@@ -5,8 +5,8 @@
   # Directory where the build files are located
   publish = "dist/public"
   
-  # Node.js version
-  environment = { NODE_VERSION = "18" }
+  # Node.js version - updated to 20 for @octokit compatibility
+  environment = { NODE_VERSION = "20" }
 
 # SPA routing - redirect all requests to index.html
 [[redirects]]
