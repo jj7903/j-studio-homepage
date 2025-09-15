@@ -1,6 +1,6 @@
 [build]
-  # Build command
-  command = "npm run build"
+  # Build command - client only for static hosting
+  command = "vite build"
   
   # Directory where the build files are located
   publish = "dist/public"
